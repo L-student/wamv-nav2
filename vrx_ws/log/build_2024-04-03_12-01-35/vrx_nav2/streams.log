@@ -1,0 +1,21 @@
+[0.742s] Invoking command in '/home/momesso/vrx_ws/src/vrx_nav2': PYTHONPATH=/home/momesso/vrx_ws/build/vrx_nav2/prefix_override:/home/momesso/vrx_ws/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/vrx_nav2 build --build-base /home/momesso/vrx_ws/build/vrx_nav2/build install --record /home/momesso/vrx_ws/build/vrx_nav2/install.log --single-version-externally-managed install_data
+[0.938s] running egg_info
+[0.939s] writing ../../build/vrx_nav2/vrx_nav2.egg-info/PKG-INFO
+[0.939s] writing dependency_links to ../../build/vrx_nav2/vrx_nav2.egg-info/dependency_links.txt
+[0.939s] writing entry points to ../../build/vrx_nav2/vrx_nav2.egg-info/entry_points.txt
+[0.939s] writing requirements to ../../build/vrx_nav2/vrx_nav2.egg-info/requires.txt
+[0.940s] writing top-level names to ../../build/vrx_nav2/vrx_nav2.egg-info/top_level.txt
+[0.941s] reading manifest file '../../build/vrx_nav2/vrx_nav2.egg-info/SOURCES.txt'
+[0.942s] writing manifest file '../../build/vrx_nav2/vrx_nav2.egg-info/SOURCES.txt'
+[0.942s] running build
+[0.942s] running build_py
+[0.942s] running install
+[0.942s] running install_lib
+[0.943s] running install_data
+[0.943s] running install_egg_info
+[0.945s] removing '/home/momesso/vrx_ws/install/lib/python3.10/site-packages/vrx_nav2-0.0.0-py3.10.egg-info' (and everything under it)
+[0.945s] Copying ../../build/vrx_nav2/vrx_nav2.egg-info to /home/momesso/vrx_ws/install/lib/python3.10/site-packages/vrx_nav2-0.0.0-py3.10.egg-info
+[0.945s] running install_scripts
+[0.963s] Installing bringup script to /home/momesso/vrx_ws/install/lib/vrx_nav2
+[0.963s] writing list of installed files to '/home/momesso/vrx_ws/build/vrx_nav2/install.log'
+[1.005s] Invoked command in '/home/momesso/vrx_ws/src/vrx_nav2' returned '0': PYTHONPATH=/home/momesso/vrx_ws/build/vrx_nav2/prefix_override:/home/momesso/vrx_ws/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/vrx_nav2 build --build-base /home/momesso/vrx_ws/build/vrx_nav2/build install --record /home/momesso/vrx_ws/build/vrx_nav2/install.log --single-version-externally-managed install_data

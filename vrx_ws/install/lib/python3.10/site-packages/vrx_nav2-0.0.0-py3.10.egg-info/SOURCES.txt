@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/vrx_nav2/vrx_nav2.egg-info/PKG-INFO
+../../build/vrx_nav2/vrx_nav2.egg-info/SOURCES.txt
+../../build/vrx_nav2/vrx_nav2.egg-info/dependency_links.txt
+../../build/vrx_nav2/vrx_nav2.egg-info/entry_points.txt
+../../build/vrx_nav2/vrx_nav2.egg-info/requires.txt
+../../build/vrx_nav2/vrx_nav2.egg-info/top_level.txt
+../../build/vrx_nav2/vrx_nav2.egg-info/zip-safe
+resource/vrx_nav2
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py
+vrx_nav2/__init__.py
+vrx_nav2/bringup.py

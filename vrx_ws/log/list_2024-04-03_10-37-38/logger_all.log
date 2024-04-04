@@ -1,0 +1,148 @@
+[0.134s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/momesso/vrx_ws']
+[0.134s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/momesso/vrx_ws'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7d5eeeeb5210>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7d5eef0413f0>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7d5eef0413f0>>)
+[0.389s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.389s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.389s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.389s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.389s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.389s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/momesso/vrx_ws'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(/home/momesso/vrx_ws) by extensions ['ignore', 'ignore_ament_install']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(/home/momesso/vrx_ws) by extension 'ignore'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(/home/momesso/vrx_ws) by extension 'ignore_ament_install'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(/home/momesso/vrx_ws) by extensions ['colcon_pkg']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(/home/momesso/vrx_ws) by extension 'colcon_pkg'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(/home/momesso/vrx_ws) by extensions ['colcon_meta']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(/home/momesso/vrx_ws) by extension 'colcon_meta'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(/home/momesso/vrx_ws) by extensions ['ros']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(/home/momesso/vrx_ws) by extension 'ros'
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(/home/momesso/vrx_ws) by extensions ['cmake', 'python']
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(/home/momesso/vrx_ws) by extension 'cmake'
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(/home/momesso/vrx_ws) by extension 'python'
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(/home/momesso/vrx_ws) by extensions ['python_setup_py']
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(/home/momesso/vrx_ws) by extension 'python_setup_py'
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(/home/momesso/vrx_ws/build) by extensions ['ignore', 'ignore_ament_install']
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(/home/momesso/vrx_ws/build) by extension 'ignore'
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(/home/momesso/vrx_ws/build) ignored
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(/home/momesso/vrx_ws/install) by extensions ['ignore', 'ignore_ament_install']
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(/home/momesso/vrx_ws/install) by extension 'ignore'
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(/home/momesso/vrx_ws/install) ignored
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(/home/momesso/vrx_ws/log) by extensions ['ignore', 'ignore_ament_install']
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(/home/momesso/vrx_ws/log) by extension 'ignore'
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(/home/momesso/vrx_ws/log) ignored
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(/home/momesso/vrx_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(/home/momesso/vrx_ws/src) by extension 'ignore'
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(/home/momesso/vrx_ws/src) by extension 'ignore_ament_install'
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(/home/momesso/vrx_ws/src) by extensions ['colcon_pkg']
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(/home/momesso/vrx_ws/src) by extension 'colcon_pkg'
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(/home/momesso/vrx_ws/src) by extensions ['colcon_meta']
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(/home/momesso/vrx_ws/src) by extension 'colcon_meta'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(/home/momesso/vrx_ws/src) by extensions ['ros']
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(/home/momesso/vrx_ws/src) by extension 'ros'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(/home/momesso/vrx_ws/src) by extensions ['cmake', 'python']
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(/home/momesso/vrx_ws/src) by extension 'cmake'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(/home/momesso/vrx_ws/src) by extension 'python'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(/home/momesso/vrx_ws/src) by extensions ['python_setup_py']
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(/home/momesso/vrx_ws/src) by extension 'python_setup_py'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(/home/momesso/vrx_ws/src/vrx) by extensions ['ignore', 'ignore_ament_install']
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(/home/momesso/vrx_ws/src/vrx) by extension 'ignore'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(/home/momesso/vrx_ws/src/vrx) by extension 'ignore_ament_install'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(/home/momesso/vrx_ws/src/vrx) by extensions ['colcon_pkg']
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(/home/momesso/vrx_ws/src/vrx) by extension 'colcon_pkg'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(/home/momesso/vrx_ws/src/vrx) by extensions ['colcon_meta']
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(/home/momesso/vrx_ws/src/vrx) by extension 'colcon_meta'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(/home/momesso/vrx_ws/src/vrx) by extensions ['ros']
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(/home/momesso/vrx_ws/src/vrx) by extension 'ros'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(/home/momesso/vrx_ws/src/vrx) by extensions ['cmake', 'python']
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(/home/momesso/vrx_ws/src/vrx) by extension 'cmake'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(/home/momesso/vrx_ws/src/vrx) by extension 'python'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(/home/momesso/vrx_ws/src/vrx) by extensions ['python_setup_py']
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(/home/momesso/vrx_ws/src/vrx) by extension 'python_setup_py'
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(/home/momesso/vrx_ws/src/vrx/images) by extensions ['ignore', 'ignore_ament_install']
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(/home/momesso/vrx_ws/src/vrx/images) by extension 'ignore'
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(/home/momesso/vrx_ws/src/vrx/images) by extension 'ignore_ament_install'
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(/home/momesso/vrx_ws/src/vrx/images) by extensions ['colcon_pkg']
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(/home/momesso/vrx_ws/src/vrx/images) by extension 'colcon_pkg'
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(/home/momesso/vrx_ws/src/vrx/images) by extensions ['colcon_meta']
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(/home/momesso/vrx_ws/src/vrx/images) by extension 'colcon_meta'
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(/home/momesso/vrx_ws/src/vrx/images) by extensions ['ros']
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(/home/momesso/vrx_ws/src/vrx/images) by extension 'ros'
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(/home/momesso/vrx_ws/src/vrx/images) by extensions ['cmake', 'python']
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(/home/momesso/vrx_ws/src/vrx/images) by extension 'cmake'
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(/home/momesso/vrx_ws/src/vrx/images) by extension 'python'
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(/home/momesso/vrx_ws/src/vrx/images) by extensions ['python_setup_py']
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(/home/momesso/vrx_ws/src/vrx/images) by extension 'python_setup_py'
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(/home/momesso/vrx_ws/src/vrx/vrx_gz) by extensions ['ignore', 'ignore_ament_install']
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(/home/momesso/vrx_ws/src/vrx/vrx_gz) by extension 'ignore'
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(/home/momesso/vrx_ws/src/vrx/vrx_gz) by extension 'ignore_ament_install'
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(/home/momesso/vrx_ws/src/vrx/vrx_gz) by extensions ['colcon_pkg']
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(/home/momesso/vrx_ws/src/vrx/vrx_gz) by extension 'colcon_pkg'
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(/home/momesso/vrx_ws/src/vrx/vrx_gz) by extensions ['colcon_meta']
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(/home/momesso/vrx_ws/src/vrx/vrx_gz) by extension 'colcon_meta'
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(/home/momesso/vrx_ws/src/vrx/vrx_gz) by extensions ['ros']
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(/home/momesso/vrx_ws/src/vrx/vrx_gz) by extension 'ros'
+[0.415s] DEBUG:colcon.colcon_core.package_identification:Package '/home/momesso/vrx_ws/src/vrx/vrx_gz' with type 'ros.ament_cmake' and name 'vrx_gz'
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(/home/momesso/vrx_ws/src/vrx/vrx_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(/home/momesso/vrx_ws/src/vrx/vrx_ros) by extension 'ignore'
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(/home/momesso/vrx_ws/src/vrx/vrx_ros) by extension 'ignore_ament_install'
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(/home/momesso/vrx_ws/src/vrx/vrx_ros) by extensions ['colcon_pkg']
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(/home/momesso/vrx_ws/src/vrx/vrx_ros) by extension 'colcon_pkg'
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(/home/momesso/vrx_ws/src/vrx/vrx_ros) by extensions ['colcon_meta']
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(/home/momesso/vrx_ws/src/vrx/vrx_ros) by extension 'colcon_meta'
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(/home/momesso/vrx_ws/src/vrx/vrx_ros) by extensions ['ros']
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(/home/momesso/vrx_ws/src/vrx/vrx_ros) by extension 'ros'
+[0.420s] DEBUG:colcon.colcon_core.package_identification:Package '/home/momesso/vrx_ws/src/vrx/vrx_ros' with type 'ros.ament_cmake' and name 'vrx_ros'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(/home/momesso/vrx_ws/src/vrx/vrx_urdf) by extensions ['ignore', 'ignore_ament_install']
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(/home/momesso/vrx_ws/src/vrx/vrx_urdf) by extension 'ignore'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(/home/momesso/vrx_ws/src/vrx/vrx_urdf) by extension 'ignore_ament_install'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(/home/momesso/vrx_ws/src/vrx/vrx_urdf) by extensions ['colcon_pkg']
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(/home/momesso/vrx_ws/src/vrx/vrx_urdf) by extension 'colcon_pkg'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(/home/momesso/vrx_ws/src/vrx/vrx_urdf) by extensions ['colcon_meta']
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(/home/momesso/vrx_ws/src/vrx/vrx_urdf) by extension 'colcon_meta'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(/home/momesso/vrx_ws/src/vrx/vrx_urdf) by extensions ['ros']
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(/home/momesso/vrx_ws/src/vrx/vrx_urdf) by extension 'ros'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(/home/momesso/vrx_ws/src/vrx/vrx_urdf) by extensions ['cmake', 'python']
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(/home/momesso/vrx_ws/src/vrx/vrx_urdf) by extension 'cmake'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(/home/momesso/vrx_ws/src/vrx/vrx_urdf) by extension 'python'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(/home/momesso/vrx_ws/src/vrx/vrx_urdf) by extensions ['python_setup_py']
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(/home/momesso/vrx_ws/src/vrx/vrx_urdf) by extension 'python_setup_py'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(/home/momesso/vrx_ws/src/vrx/vrx_urdf/vrx_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(/home/momesso/vrx_ws/src/vrx/vrx_urdf/vrx_gazebo) by extension 'ignore'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(/home/momesso/vrx_ws/src/vrx/vrx_urdf/vrx_gazebo) by extension 'ignore_ament_install'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(/home/momesso/vrx_ws/src/vrx/vrx_urdf/vrx_gazebo) by extensions ['colcon_pkg']
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(/home/momesso/vrx_ws/src/vrx/vrx_urdf/vrx_gazebo) by extension 'colcon_pkg'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(/home/momesso/vrx_ws/src/vrx/vrx_urdf/vrx_gazebo) by extensions ['colcon_meta']
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(/home/momesso/vrx_ws/src/vrx/vrx_urdf/vrx_gazebo) by extension 'colcon_meta'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(/home/momesso/vrx_ws/src/vrx/vrx_urdf/vrx_gazebo) by extensions ['ros']
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(/home/momesso/vrx_ws/src/vrx/vrx_urdf/vrx_gazebo) by extension 'ros'
+[0.423s] DEBUG:colcon.colcon_core.package_identification:Package '/home/momesso/vrx_ws/src/vrx/vrx_urdf/vrx_gazebo' with type 'ros.ament_cmake' and name 'vrx_gazebo'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(/home/momesso/vrx_ws/src/vrx/vrx_urdf/wamv_description) by extensions ['ignore', 'ignore_ament_install']
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(/home/momesso/vrx_ws/src/vrx/vrx_urdf/wamv_description) by extension 'ignore'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(/home/momesso/vrx_ws/src/vrx/vrx_urdf/wamv_description) by extension 'ignore_ament_install'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(/home/momesso/vrx_ws/src/vrx/vrx_urdf/wamv_description) by extensions ['colcon_pkg']
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(/home/momesso/vrx_ws/src/vrx/vrx_urdf/wamv_description) by extension 'colcon_pkg'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(/home/momesso/vrx_ws/src/vrx/vrx_urdf/wamv_description) by extensions ['colcon_meta']
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(/home/momesso/vrx_ws/src/vrx/vrx_urdf/wamv_description) by extension 'colcon_meta'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(/home/momesso/vrx_ws/src/vrx/vrx_urdf/wamv_description) by extensions ['ros']
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(/home/momesso/vrx_ws/src/vrx/vrx_urdf/wamv_description) by extension 'ros'
+[0.424s] DEBUG:colcon.colcon_core.package_identification:Package '/home/momesso/vrx_ws/src/vrx/vrx_urdf/wamv_description' with type 'ros.ament_cmake' and name 'wamv_description'
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(/home/momesso/vrx_ws/src/vrx/vrx_urdf/wamv_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(/home/momesso/vrx_ws/src/vrx/vrx_urdf/wamv_gazebo) by extension 'ignore'
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(/home/momesso/vrx_ws/src/vrx/vrx_urdf/wamv_gazebo) by extension 'ignore_ament_install'
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(/home/momesso/vrx_ws/src/vrx/vrx_urdf/wamv_gazebo) by extensions ['colcon_pkg']
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(/home/momesso/vrx_ws/src/vrx/vrx_urdf/wamv_gazebo) by extension 'colcon_pkg'
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(/home/momesso/vrx_ws/src/vrx/vrx_urdf/wamv_gazebo) by extensions ['colcon_meta']
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(/home/momesso/vrx_ws/src/vrx/vrx_urdf/wamv_gazebo) by extension 'colcon_meta'
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(/home/momesso/vrx_ws/src/vrx/vrx_urdf/wamv_gazebo) by extensions ['ros']
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(/home/momesso/vrx_ws/src/vrx/vrx_urdf/wamv_gazebo) by extension 'ros'
+[0.426s] DEBUG:colcon.colcon_core.package_identification:Package '/home/momesso/vrx_ws/src/vrx/vrx_urdf/wamv_gazebo' with type 'ros.ament_cmake' and name 'wamv_gazebo'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(/home/momesso/vrx_ws/src/vrx_nav2) by extensions ['ignore', 'ignore_ament_install']
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(/home/momesso/vrx_ws/src/vrx_nav2) by extension 'ignore'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(/home/momesso/vrx_ws/src/vrx_nav2) by extension 'ignore_ament_install'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(/home/momesso/vrx_ws/src/vrx_nav2) by extensions ['colcon_pkg']
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(/home/momesso/vrx_ws/src/vrx_nav2) by extension 'colcon_pkg'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(/home/momesso/vrx_ws/src/vrx_nav2) by extensions ['colcon_meta']
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(/home/momesso/vrx_ws/src/vrx_nav2) by extension 'colcon_meta'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(/home/momesso/vrx_ws/src/vrx_nav2) by extensions ['ros']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(/home/momesso/vrx_ws/src/vrx_nav2) by extension 'ros'
+[0.427s] DEBUG:colcon.colcon_core.package_identification:Package '/home/momesso/vrx_ws/src/vrx_nav2' with type 'ros.ament_python' and name 'vrx_nav2'
+[0.427s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

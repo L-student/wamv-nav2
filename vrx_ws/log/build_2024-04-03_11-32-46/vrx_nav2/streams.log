@@ -1,0 +1,24 @@
+[0.647s] Invoking command in '/home/momesso/vrx_ws/src/vrx_nav2': PYTHONPATH=/home/momesso/vrx_ws/build/vrx_nav2/prefix_override:/home/momesso/vrx_ws/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/vrx_nav2 build --build-base /home/momesso/vrx_ws/build/vrx_nav2/build install --record /home/momesso/vrx_ws/build/vrx_nav2/install.log --single-version-externally-managed install_data
+[0.903s] running egg_info
+[0.903s] writing ../../build/vrx_nav2/vrx_nav2.egg-info/PKG-INFO
+[0.904s] writing dependency_links to ../../build/vrx_nav2/vrx_nav2.egg-info/dependency_links.txt
+[0.904s] writing entry points to ../../build/vrx_nav2/vrx_nav2.egg-info/entry_points.txt
+[0.904s] writing requirements to ../../build/vrx_nav2/vrx_nav2.egg-info/requires.txt
+[0.904s] writing top-level names to ../../build/vrx_nav2/vrx_nav2.egg-info/top_level.txt
+[0.904s] reading manifest file '../../build/vrx_nav2/vrx_nav2.egg-info/SOURCES.txt'
+[0.904s] writing manifest file '../../build/vrx_nav2/vrx_nav2.egg-info/SOURCES.txt'
+[0.904s] running build
+[0.904s] running build_py
+[0.904s] copying vrx_nav2/bringup.py -> /home/momesso/vrx_ws/build/vrx_nav2/build/lib/vrx_nav2
+[0.904s] running install
+[0.905s] running install_lib
+[0.905s] copying /home/momesso/vrx_ws/build/vrx_nav2/build/lib/vrx_nav2/bringup.py -> /home/momesso/vrx_ws/install/lib/python3.10/site-packages/vrx_nav2
+[0.905s] byte-compiling /home/momesso/vrx_ws/install/lib/python3.10/site-packages/vrx_nav2/bringup.py to bringup.cpython-310.pyc
+[0.905s] running install_data
+[0.905s] running install_egg_info
+[0.905s] removing '/home/momesso/vrx_ws/install/lib/python3.10/site-packages/vrx_nav2-0.0.0-py3.10.egg-info' (and everything under it)
+[0.905s] Copying ../../build/vrx_nav2/vrx_nav2.egg-info to /home/momesso/vrx_ws/install/lib/python3.10/site-packages/vrx_nav2-0.0.0-py3.10.egg-info
+[0.905s] running install_scripts
+[0.915s] Installing bringup script to /home/momesso/vrx_ws/install/lib/vrx_nav2
+[0.915s] writing list of installed files to '/home/momesso/vrx_ws/build/vrx_nav2/install.log'
+[0.952s] Invoked command in '/home/momesso/vrx_ws/src/vrx_nav2' returned '0': PYTHONPATH=/home/momesso/vrx_ws/build/vrx_nav2/prefix_override:/home/momesso/vrx_ws/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/vrx_nav2 build --build-base /home/momesso/vrx_ws/build/vrx_nav2/build install --record /home/momesso/vrx_ws/build/vrx_nav2/install.log --single-version-externally-managed install_data
