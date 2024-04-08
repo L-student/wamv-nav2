@@ -1,3 +1,0 @@
-[console_scripts]
-bringup = vrx_nav2.bringup:main
-

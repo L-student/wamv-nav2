@@ -13,10 +13,12 @@ class Bringup(Node):
         self.pub_right_pos = self.create_publisher(Float64, '/wamv/thrusters/right/pos', 10)
         self.pub_right_thrust = self.create_publisher(Float64, '/wamv/thrusters/right/thrust', 10)
 
-        self.cmd_vel_subscription = self.create_subscription(Twist, '/wamv/cmd_vel', self.cmd_vel_listener, 10)
+        self.cmd_vel_subscription = self.create_subscription(Twist, '/cmd_vel', self.cmd_vel_listener, 10)
         self.cmd_vel_subscription # Prevent unused variable warning
 
         self.pos = 0
+
+        #self.set_parameter(rclpy.parameter.Parameter('use_sim_time', rclpy.Parameter.Type.BOOL, True))
 
     def cmd_vel_listener(self, msg):
         vx = msg.linear.x
