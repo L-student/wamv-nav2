@@ -21,7 +21,8 @@ setup(
     entry_points={
         'console_scripts': [
             'bringup = vrx_nav2.bringup:main',
-            'odometry = vrx_nav2.odometry:main'
+            'odometry = vrx_nav2.odometry:main',
+            'initial_pose = vrx_nav2.initial_pose:main'
         ],
     },
 )
